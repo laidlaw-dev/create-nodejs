@@ -1,0 +1,19 @@
+{
+  "name": "create-nodejs",
+  "version": "1.0.0",
+  "description": "cli to create nodejs projects",
+  "keywords": [
+    "nodejs",
+    "cli",
+    "typescript",
+    "vitest",
+    "eslint"
+  ],
+  "license": "MIT",
+  "author": "laidlaw_dev",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "create-nodejs": "./index.js"
+  }
+}
