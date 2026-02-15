@@ -21,6 +21,8 @@ const devDependencies = [
   "prettier",
   "eslint-config-prettier",
   "vitest",
+  "tsx",
+  "tsup",
 ];
 
 // Function to create a new Node.js project

@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 // install-all.js
 import { execSync } from "child_process";
 
