@@ -4,15 +4,18 @@ export function packageJson(projectName, description, author) {
     version: "1.0.0",
     description: description,
     type: "module",
-    main: "index.ts",
     author: author,
     license: "MIT",
+    bin: {
+      [projectName]: "dist/index.js",
+    },
     scripts: {
-      build: "tsc",
+      build: "tsup",
       start: "node dist/index.js",
-      dev: "ts-node src/index.ts",
+      dev: "tsx src/index.ts",
       lint: "eslint .",
-      test: "vitest",
+      test: "vitest run",
+      test_watch: "vitest",
     },
   };
 
